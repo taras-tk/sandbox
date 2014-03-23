@@ -1,4 +1,4 @@
-# divide x by y
+# divide x by y.
 def divide(x, y)
   x / y
 end
