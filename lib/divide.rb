@@ -1,5 +1,5 @@
 #comment
 #second
 def divide(x ,y)
-  x / y
+  x * 1. / y
 end
