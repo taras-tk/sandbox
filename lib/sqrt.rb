@@ -6,5 +6,5 @@ def sqrt(x)
     break if (zn - z).abs < 0.0001
     z = zn
   end
-  z
+  z*2
 end
