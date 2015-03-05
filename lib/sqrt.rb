@@ -1,4 +1,5 @@
 # approximate math function
+a
 
 def sqrt(x)
   z = 1
