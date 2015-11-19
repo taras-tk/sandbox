@@ -1,8 +1,12 @@
-#:ruby_version: 'ruby-2.1.0'
-#:test_pattern:
-#  - features/*.feature
-#  - spec/**_spec.rb
-tests:
-  - type: custom
-  - command: ls -la
-  - name: ls command
+plan:
+  - default
+profiles:
+  default:
+    script: "/home/ubuntu/foo.sh"
+    #tests:
+    #  - '/home/ubuntu/foo.sh'
+    #  - '/home/ubuntu/bar.sh'
+    environment:
+      'FOOBARVAR': 'foobarval'
+      'PATH2': '/home/ubuntu/tmp'
+    timeout: 300
