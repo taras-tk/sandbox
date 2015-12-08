@@ -9,4 +9,4 @@ profiles:
     environment:
       'FOOBARVAR': 'foobarval'
       'PATH2': '/home/ubuntu/tmp'
-    timeout: 300
+    timeout: 60
